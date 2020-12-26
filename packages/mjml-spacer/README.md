@@ -22,13 +22,16 @@ Displays a blank space.
   </a>
 </p>
 
-attribute                   | unit        | description                    | default value
-----------------------------|-------------|--------------------------------|------------------------------
+attribute                    | unit          | description                     | default value
+-----------------------------|---------------|---------------------------------|------------------------------
+align                        | left/right/center | self horizontal alignment   | center
 container-background-color   | color         | inner element background color  | n/a
-css-class                   | string      | class name, added to the root HTML element created | n/a
-height                      | px          | spacer height                  | 20px
+css-class                    | string        | class name, added to the root HTML element created | n/a
+height                       | px            | spacer height                   | 20px
 padding                      | px            | supports up to 4 parameters     | none
 padding-bottom               | px            | bottom offset                   | n/a
 padding-left                 | px            | left offset                     | n/a
 padding-right                | px            | right offset                    | n/a
 padding-top                  | px            | top offset                      | n/a
+width                        | px/percent    | spacer width                    | 100%
+spacer-color                 | color         | spacer color                    | n/a
